@@ -19,6 +19,7 @@ btnAdd.addEventListener("click", () => {
         listItem.appendChild(taskName);
 
         list.appendChild(listItem);
+        input.value = '';
         input.focus();
     } else
         input.placeholder = 'Enter task name here';
